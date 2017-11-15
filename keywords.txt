@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For IntoRobot
+#######################################
+
+#######################################
+# Class (KEYWORD1)
+#######################################
+
+IntoRobot_DHT    KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# methods names in commond
+begin   KEYWORD2
+getHumidity   KEYWORD2
+getTempCelcius   KEYWORD2
+getTempFarenheit   KEYWORD2
+getTempKelvin   KEYWORD2
+getHeatIndex   KEYWORD2
+getDewPoint   KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DHT11   LITERAL1
+DHT22   LITERAL1
+DHT21   LITERAL1
+AM2301  LITERAL1
+AM2302  LITERAL1
