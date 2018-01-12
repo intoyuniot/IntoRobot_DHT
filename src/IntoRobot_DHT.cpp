@@ -190,13 +190,15 @@ boolean IntoRobot_DHT::read(void)
     {
         counter = 0;
         lastMicros = micros();
-        while (digitalRead(_pin) == laststate)
+        //while (digitalRead(_pin) == laststate)
+        while (pinReadFast(_pin) == laststate)
         {
             currentMicros = micros();
             counter = currentMicros - lastMicros;
             if(counter >= 250) break;
         }
-        laststate = digitalRead(_pin);
+        //laststate = digitalRead(_pin);
+        laststate = pinReadFast(_pin);
         if (counter == 255) break;
         //忽略前3个电平
         if ((i >= 4) && (i%2 == 0))

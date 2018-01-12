@@ -1,6 +1,6 @@
 {
     "name": "IntoRobot_DHT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": "DHT11, DHT22, DHT21, AM2301, AM2302",
     "description": "DHT11/21/22和AM2301/02温湿度传感器库",
     "repository": {
